@@ -214,6 +214,7 @@ header.header{
   right: 0;
   left: 0;
   z-index: 10;
+  padding-bottom: 16px;
   background: #ffffff;
 }
 .first-section{
@@ -533,6 +534,73 @@ header.header{
   text-decoration: none;
 }
 
+.for-section{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background: url("../img/for-section.jpg") no-repeat 10vw bottom;
+}
+.for-section:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.for-section .item{
+  width: 33.333%;
+  position: relative;
+  text-align: center;
+  height: 205px;
+  border: 1px solid #cecece;
+  float: left;
+  z-index: 2;
+  margin: 0 0 0 -1px;
+}
+.for-section .item.no-photo{
+  border: 1px solid #ffffff;
+  z-index: 1;
+}
+.for-section .item.bg-no-border{
+  border: 1px solid #F4F4F4;
+  background: #F4F4F4;
+  z-index: 1;
+}
+.for-section .item.logo-russkoe-more{
+  padding-top: 45px;
+}
+.for-section .item.unnamed1{
+  padding-top: 15px;
+}
+.for-section .item.logo-dikaya-orhideya{
+  padding-top: 60px;
+}
+.for-section .item.transaero{
+  padding-top: 75px;
+}
+.for-section .item.logo-mirax-group{
+  padding-top: 25px;
+}
+.for-section .item img{
+  max-height: 100%;
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+.for-section  .title-wrapper-block .title{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 76px;
+  color: #1A1B20;
+}
+.for-section  .title-wrapper-block .title .bg-text-red{
+  display: inline-block;
+  background: #DC0B07;
+  color: #ffffff;
+}
+.for-section  .title-wrapper-block .title .title{
+  color: #DC0B07;
+}
 /*
   font-family: 'Gilroy', sans-serif;
 */
