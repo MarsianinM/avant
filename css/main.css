@@ -172,6 +172,370 @@ textarea {
   clear: both;
 }
 
+
+.menu-icon-wrapper,
+.wrapper-icon-social,
+a.mailto{
+  padding-top: 27px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+}
+.wrapper-icon-social a{
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.menu-icon-wrapper a{
+  display: block;
+  outline: none;
+}
+a.mailto{
+  margin-right: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  padding: 27px 0 15px 65px;
+  background: url("../img/phone.svg") no-repeat left 17px;
+}
+a.logo{
+  position: absolute;
+  top: 0;
+  left: calc(50% - 60px);
+  z-index: 2;
+}
+header.header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background: #ffffff;
+}
+.first-section{
+  min-height: 100vh;
+  width: 100%;
+  background: url("../img/main-image.svg") no-repeat center bottom;
+}
+.title-section{
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 187px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+.scroll-link{
+  position: absolute;
+  width: 87px;
+  height: 20px;
+  bottom: 75px;
+  right: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #DC0B07;
+  transform: rotate(-90deg);
+}
+.second-section{
+  padding-top: 92px;
+  padding-bottom: 90px;
+  background: #1A1B20;
+  position: relative;
+}
+.second-section .wrapper-men{
+  padding-left: 160px;
+}
+.second-section .wrapper-men .title-wrapper{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 76px;
+  color: #FFFFFF;
+  margin-bottom: 64px;
+}
+.second-section .wrapper-men .title-wrapper>span{
+  display: block;
+}
+.second-section .wrapper-men .title-wrapper>span.bg-text-red{
+  display: inline-block;
+  background: #DC0B07;
+}
+.second-section .wrapper-img{
+  padding-top: 97px;
+  padding-left: 155px;
+  background: url("../img/line_at_man.svg") no-repeat left top;
+}
+.row-block{
+  position: relative;
+  padding-left: 125px;
+  margin-bottom: 17px;
+}
+
+.row-block:before{
+  position: absolute;
+  top: 0;
+  left: 60px;
+  height: 1px;
+  width: 50px;
+  border-top: 1px solid #BCBCBC;
+  content: '';
+  display: block;
+  transition: .5s linear;
+}
+.row-block:hover:before{
+  border-top: 1px solid #DC0B07;
+  left: 15px;
+  width: 95px;
+  transition: .5s linear;
+}
+.row-block:after{
+  position: absolute;
+  top: 38px;
+  left: 90px;
+  height: 38px;
+  width: 20px;
+  border-top: 1px solid #BCBCBC;
+  border-bottom: 1px solid #BCBCBC;
+  content: '';
+  display: block;
+}
+.row-block .hover-text{
+  position: absolute;
+  right: 100%;
+  top: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #DC0B07;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity .5s linear;
+}
+.row-block:hover .hover-text{
+  transition: opacity .5s linear;
+  opacity: 1;
+}
+.row-block .big-text{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #CCCCCC;
+  margin-bottom: 7px;
+}
+.row-block:hover .big-text{
+  color: #DC0B07;
+}
+.row-block .big-text .small{
+  font-size: 22px;
+  padding-top: 8px;
+}
+.row-block .description{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #AAAAAA;max-width: 84%;
+  min-height: 60px;
+}
+.row-block:hover .description{
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.after-second{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  max-width: 345px;
+  height: 288px;
+  background: #ffffff;
+  bottom: 0;
+  text-align: center;
+}
+.after-second svg{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin-top: -100px;
+}
+.third-section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.third-section .title{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 76px;
+  color: #1A1B20;
+  margin-bottom: 70px;
+}
+.third-section .title .bg-text-red{
+  display: inline-block;
+  background: #DC0B07;
+  color: #ffffff;
+}
+.wrapper-service{
+  padding-left: 184px;
+  padding-right: 184px;
+}
+.wrapper-service .icon-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+.wrapper-service .title-flip{
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  height: 30px;
+  bottom: 30px;
+  min-height: 100px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-align: left;
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+/** FLIPER */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 532px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 30px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .icon-img,
+.flip-card:hover .title-flip{
+  opacity: 0;
+  transition: opacity .5s linear;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background: rgba(220, 11, 7, 0.5);
+  color: white;
+  transform: rotateY(180deg);
+  padding: 30px;
+}
+.flip-card-back .title-back{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+.flip-card-back ul{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  list-style: square;
+  margin-left: 0;
+  color: #FFFFFF;
+  padding-left: 18px;
+}
+.flip-card-back ul li{
+  margin-bottom: 10px;
+}
+.flip-card-back a.btn-more{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 5px 20px 5px 20px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.flip-card-back a.btn-more:after{
+  content: '';
+  display: block;
+  left: -10px;
+  width: 20px;
+  height: 1px;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+}
+.flip-card-back a.btn-more>span{
+  display: block;
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -3px;
+  border: 1px solid #ffffff;
+  border-left: none;
+  text-decoration: none;
+}
+
+/*
+  font-family: 'Gilroy', sans-serif;
+*/
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
