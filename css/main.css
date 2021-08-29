@@ -186,6 +186,10 @@ a.mailto{
   display: inline-block;
   vertical-align: top;
 }
+.wrapper-icon-social a:hover svg path,
+.menu-icon-wrapper a:hover svg path{
+  fill: #dc001c;
+}
 .menu-icon-wrapper a{
   display: block;
   outline: none;
@@ -555,7 +559,7 @@ header.header{
   margin: 0 0 0 -1px;
 }
 .for-section .item.no-photo{
-  border: 1px solid #ffffff;
+  border: 1px solid #fff0;
   z-index: 1;
 }
 .for-section .item.bg-no-border{
@@ -700,6 +704,489 @@ header.header{
 }
 footer.footer{
   background: #DC0B07;
+  position: relative;
+}
+.foot-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.foot-menu ul li{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.foot-menu ul li a{
+  display: block;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin: 0 20px;
+}
+.foot-menu ul li:first-child a{
+  margin-left: 0;
+}
+.foot-menu ul li:last-child a{
+  margin-right: 0;
+}
+.footer-logo{
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 71px);
+  z-index: 2;
+}
+
+.logo-300{
+  padding-top: 19px;
+}
+.social-footer{
+  padding-top: 30px;
+}
+.social-footer a{
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}
+.social-footer a:hover svg path,
+.contact-footer a.tel-footer:hover svg path{
+  fill: #ffffff;
+  fill-opacity: 1;
+}
+.contact-footer a{
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.contact-footer a.tel-footer{
+  padding-top: 22px;
+}
+.contact-footer a.mail_footer{
+  padding-top: 35px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.contact-footer a.mail_footer:hover{
+  text-decoration: underline;
+}
+footer.footer .copyright{
+  background: #FFFFFF;
+  padding: 18px 70px 14px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DC0B07;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+}
+
+
+@media (max-width: 1570px) {
+  .after-second{
+    max-width: 277px;
+  }
+  .wrapper-service .title-flip{
+    font-size: 29px;
+    line-height: 33px;
+    left: 24px;
+    right: 24px;
+    height: 24px;
+    bottom: 24px;
+  }
+  .flip-card-back .title-back{
+    font-size: 29px;
+    line-height: 33px;
+  }
+  .for-section .title-wrapper-block .title, .fife-section .title-wrapper-block .title{
+    font-size: 54px;
+    line-height: 70px;
+  }
+  .foot-menu ul li a{
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .flip-card-back{
+    padding: 15px;
+  }
+  .flip-card-back a.btn-more{
+    right: 15px;
+    bottom: 15px;
+  }
+  .foot-menu ul li a,
+  .social-footer a{
+    margin: 0 5px;
+  }
+}
+@media (max-width: 1280px) {
+  .contact-footer a.tel-footer svg{
+    max-width: 35px;
+  }
+  .foot-menu ul{
+    padding-top: 35px;
+  }
+  .foot-menu ul li{
+    padding: 0;
+  }
+  .foot-menu ul li a{
+    font-size: 15px;
+  }
+  .wrapper-service{
+    padding-left: 74px;
+    padding-right: 74px;
+  }
+  #experience-section .wrapper-description{
+    width: 40%;
+  }
+  .after-second{
+    max-width: 150px;
+    height: 150px;
+  }
+  .for-section .title-wrapper-block .title, .fife-section .title-wrapper-block .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  footer.footer .copyright{
+    padding: 18px 30px 14px;
+  }
+  .first-section{
+    background-size: 90% auto;
+  }
+}
+@media (max-width: 1240px) {
+  .contact-footer a.mail_footer{
+    padding-top: 5px;
+  }
+}
+@media (max-width: 1124px) {
+  .second-section .wrapper-men{
+    padding-left: 70px;
+  }
+  .wrapper-service{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .wrapper-service .title-flip {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .for-section .item{
+    height: 150px;
+  }
+  .for-section .item.logo-russkoe-more {
+    padding-top: 17px;
+  }
+  .for-section .item.unnamed1 {
+    padding-top: 5px;
+  }
+  .for-section .item.logo-dikaya-orhideya {
+    padding-top: 38px;
+  }
+  .for-section .item.transaero {
+    padding-top: 55px;
+  }
+  .for-section .item.logo-mirax-group {
+    padding-top: 3px;
+  }
+  .fife-section .row_trusted .item{
+    height: 135px;
+    padding-top: 45px;
+  }
+  .fife-section .row_trusted .item.vtb-bank {
+    padding-top: 40px;
+  }
+  .fife-section .row_trusted .item.credit1 {
+    padding-top: 50px;
+  }
+  .fife-section .row_trusted .item.novikombank {
+    padding-top: 24px;
+  }
+  .fife-section .row_trusted .item.unicredit-bank {
+    padding-top: 47px;
+  }
+  .fife-section .row_trusted .item.ikea {
+    padding-top: 38px;
+  }
+  .fife-section .row_trusted .item.bank-of-cyprus {
+    padding-top: 51px;
+  }
+  .fife-section .row_trusted .item.alfabank {
+    padding-top: 28px;
+  }
+  .fife-section .row_trusted .item.mfk {
+    padding-top: 39px;
+  }
+  .fife-section .row_trusted .item.absolut-bank {
+    padding-top: 45px;
+  }
+  .fife-section .row_trusted .item.heineken {
+    padding-top: 43px;
+  }
+  .fife-section .row_trusted .item.vosto-bank {
+    padding-top: 52px;
+  }
+  .fife-section .row_trusted .item.bank-rossiyskiy-kapital {
+    padding-top: 40px;
+  }
+  .fife-section .row_trusted .item.asv {
+    padding-top: 49px;
+  }
+  .foot-menu ul li a {
+    font-size: 11px;
+  }
+  .social-footer a {
+    margin: 0 1px;
+  }
+}
+@media (max-width: 900px) {
+  .first-section {
+    min-height: 599px;
+  }
+  .menu-icon-wrapper, .wrapper-icon-social, a.mailto{
+    margin-right: 32px;
+  }
+  #experience-section.second-section .wrapper-men{
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .second-section .wrapper-img{
+    display: none;
+  }
+  #experience-section .wrapper-description{
+    width: 100%;
+  }
+  a.mailto{
+    font-size: 14px;
+  }
+  .row-block .hover-text{
+    right: auto;
+    left: 13px;
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .after-second{
+    max-width: 140px;
+    height: 130px;
+  }
+  .wrapper-service{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .wrapper-service > .row > .col-sm-4{
+    width: 50%;
+  }
+  .for-section .item {
+    height: 115px;
+  }
+  .for-section .item.logo-russkoe-more {
+    padding-top: 2px;
+  }
+  .for-section .item.unnamed1 {
+    padding-top: 5px;
+  }
+  .for-section .item.logo-dikaya-orhideya {
+    padding-top: 26px;
+  }
+  .for-section .item.transaero {
+    padding-top: 42px;
+  }
+  .for-section{
+    background-size: auto 70%;
+  }
+  .for-section .title-wrapper-block .title, .fife-section .title-wrapper-block .title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .for-section .item.logo-mirax-group {
+    padding-top: 3px;
+  }
+  .fife-section .title-wrapper-block::after{
+    width: 43%;
+  }
+  .fife-section .title-wrapper-block{
+    background: url("../img/Indicators_with_number.svg") no-repeat 20% bottom;
+    background-size: 236px;
+  }
+  .fife-section .row_trusted .item{
+    height: 120px;
+    padding-top: 45px;
+  }
+  .contact-footer a.mail_footer{
+    font-size: 13px;
+  }
+  .logo-300{
+    opacity: 0;
+  }
+  .social-footer {
+    padding-top: 30px;
+    margin-left: -12%;
+    width: 44%;
+  }
+
+  .footer-logo{
+    max-width: 80px;
+    left: calc(50% - 40px);
+    top: -20px;
+  }
+  .footer-logo svg{
+    width: 100%;
+    height: auto;
+  }
+  .scroll-link{
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper-icon-social{
+    display: none;
+  }
+  a.mailto{
+    display: none;
+  }
+  .first-section{
+    background: url("../img/bg-first-m.svg") no-repeat center bottom;
+    background-size: 90% auto;
+  }
+  .second-section .wrapper-men .title-wrapper{
+    font-size: 38px;
+    line-height: 42px;
+    margin: 0 0 20px;
+  }
+  .second-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .row-block::before{
+    left: 0;
+  }
+  .row-block::after,.row-block .hover-text{
+    left: 0;
+  }
+  .row-block:hover::before {
+    left: 0;
+  }
+  .row-block{
+    padding-left: 104px;
+  }
+  .after-second{
+    display: none;
+  }
+  .wrapper-service > .row > .col-sm-4{
+    width: 100%;
+  }
+  .flip-card{
+    height: 395px;
+    overflow: hidden;
+  }
+  .third-section{
+    padding-bottom: 10px;
+  }
+  .for-section .title-wrapper-block{
+    margin-bottom: 30px;
+  }
+  .for-section .item{
+    width: 50%;
+    background: #ffffff;
+  }
+  .for-section .item.logo-dikaya-orhideya {
+    padding-top: 15px;
+  }
+  .fife-section .title-wrapper-block{
+    margin-bottom: 30px;
+    background: none;
+  }
+  .fife-section .title-wrapper-block::after{
+    display: none;
+  }
+  .logo-300{
+    opacity: 1;
+    padding-left: 50%;
+    padding-top: 8px;
+  }
+  .social-footer{
+    width: 100%;
+    margin: 0 auto 20px;
+  }
+  .contact-footer{
+    text-align: center;
+  }
+  .contact-footer a.tel-footer {
+    padding-top: 0;
+  }
+  .contact-footer a.mail_footer {
+    padding-top: 13px;
+  }
+  .foot-menu ul {
+    padding-top: 25px;
+    margin-bottom: 30px;
+  }
+  .foot-menu ul li{
+    display: block;
+    text-align: center;
+  }
+  .wr-copyright{
+    text-align: center;
+  }
+  .wr-copyright .copyright{
+    margin: 0;
+  }
+  .row_trusted.mobile .item{
+    width: 50%;
+    border: 1px solid #D9D9D9;
+    padding-top: 10px;
+    margin-bottom: -1px;
+  }
+  .row_trusted.mobile .item:nth-child(odd){
+    border-left: none;
+  }
+  .row_trusted.mobile .item:nth-child(even){
+    border-right: none;
+  }
+  .row_trusted.mobile .item.sberbank{
+    padding-top: 50px;
+  }
+  .row_trusted.mobile .item.sberbank {
+    padding-top: 42px;
+  }
+  .fife-section .row_trusted .item.unicredit-bank {
+    padding-top: 42px;
+  }
+  .fife-section .row_trusted .item.ikea {
+    padding-top: 29px;
+  }
+  .fife-section .row_trusted .item.bank-of-cyprus {
+    padding-top: 46px;
+  }
+  .fife-section .row_trusted .item.alfabank {
+    padding-top: 20px;
+  }
+  .fife-section .row_trusted .item.uralbank {
+    padding-top: 38px;
+  }
+  .fife-section .row_trusted .item.mfk {
+    padding-top: 30px;
+  }
+  .fife-section .row_trusted .item.absolut-bank {
+    padding-top: 38px;
+  }
+  .fife-section .row_trusted .item.heineken {
+    padding-top: 37px;
+  }
 }
 /*
   font-family: 'Gilroy', sans-serif;
