@@ -563,6 +563,9 @@ header.header{
   background: #F4F4F4;
   z-index: 1;
 }
+.for-section .item.bg-indicators{
+  background: url("../img/indicators.svg") no-repeat right center;
+}
 .for-section .item.logo-russkoe-more{
   padding-top: 45px;
 }
@@ -578,6 +581,7 @@ header.header{
 .for-section .item.logo-mirax-group{
   padding-top: 25px;
 }
+.fife-section .row_trusted .item img,
 .for-section .item img{
   max-height: 100%;
   max-width: 90%;
@@ -585,7 +589,8 @@ header.header{
   height: auto;
   margin: 0 auto;
 }
-.for-section  .title-wrapper-block .title{
+.for-section .title-wrapper-block .title,
+.fife-section .title-wrapper-block .title{
   font-family: 'Gilroy', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -593,13 +598,108 @@ header.header{
   line-height: 76px;
   color: #1A1B20;
 }
-.for-section  .title-wrapper-block .title .bg-text-red{
+.for-section  .title-wrapper-block .title .bg-text-red,
+.fife-section  .title-wrapper-block .title .bg-text-red{
   display: inline-block;
   background: #DC0B07;
   color: #ffffff;
 }
-.for-section  .title-wrapper-block .title .title{
+.for-section  .title-wrapper-block .title .title,
+.fife-section  .title-wrapper-block .title .title{
   color: #DC0B07;
+}
+.fife-section  .title-wrapper-block{
+  position: relative;
+  margin-bottom: 100px;
+  background: url("../img/Indicators_with_number.svg") no-repeat 20% center;
+}
+.fife-section  .title-wrapper-block:after{
+  left: 0;
+  top: 35px;
+  height: 1px;
+  width: 50%;
+  content: '';
+  position: absolute;
+  background: #2A2B30;
+}
+.fife-section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+.fife-section .row_trusted{
+  border-bottom: 1px solid #D9D9D9;
+  padding-left: 5px;
+}
+.fife-section .row_trusted:last-child{
+  border: none;
+}
+
+.fife-section .row_trusted:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.fife-section .row_trusted .item{
+  width: 20%;
+  margin-left: -1px;
+  float: left;
+  height: 170px;
+  text-align: center;
+  padding: 50px 10px 10px;
+  border-left: 1px solid #D9D9D9;
+  border-right: 1px solid #D9D9D9;
+}
+.fife-section .row_trusted .item:first-child{
+  border-left: none;
+}
+.fife-section .row_trusted .item:last-child{
+  border-right: none;
+}
+.fife-section .row_trusted .item.vtb-bank{
+  padding-top: 57px;
+}
+.fife-section .row_trusted .item.credit1{
+  padding-top: 64px;
+}
+.fife-section .row_trusted .item.novikombank{
+  padding-top: 38px;
+}
+.fife-section .row_trusted .item.unicredit-bank{
+  padding-top: 55px;
+}
+.fife-section .row_trusted .item.ikea{
+  padding-top: 55px;
+}
+.fife-section .row_trusted .item.bank-of-cyprus{
+  padding-top: 62px;
+}
+.fife-section .row_trusted .item.alfabank{
+
+}
+.fife-section .row_trusted .item.uralbank{
+
+}
+.fife-section .row_trusted .item.mfk{
+  padding-top: 56px;
+}
+.fife-section .row_trusted .item.absolut-bank{
+  padding-top: 56px;
+}
+.fife-section .row_trusted .item.heineken{
+  padding-top: 56px;
+}
+.fife-section .row_trusted .item.vosto-bank{
+  padding-top: 68px;
+}
+.fife-section .row_trusted .item.bank-rossiyskiy-kapital{
+  padding-top: 54px;
+}
+.fife-section .row_trusted .item.asv{
+  padding-top: 54px;
+}
+footer.footer{
+  background: #DC0B07;
 }
 /*
   font-family: 'Gilroy', sans-serif;
