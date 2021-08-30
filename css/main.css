@@ -194,8 +194,18 @@ a.mailto{
   display: block;
   outline: none;
 }
+.header a.tel-footer{
+  text-decoration: none;
+  margin-top: 27px;
+  display: inline-block;
+  vertical-align: top;
+}
+.header a.tel-footer:hover svg path{
+  fill: #DC0B07;
+}
 a.mailto{
   margin-right: 0;
+  margin-left: 20px;
   font-family: 'Gilroy', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -203,8 +213,9 @@ a.mailto{
   line-height: 21px;
   text-align: center;
   color: #000000;
-  padding: 27px 0 15px 65px;
-  background: url("../img/phone.svg") no-repeat left 17px;
+  padding: 27px 0 15px;
+  margin-top: 13px;
+  /*background: url("../img/phone.svg") no-repeat left 17px;*/
 }
 a.logo{
   position: absolute;
@@ -791,6 +802,86 @@ footer.footer .copyright{
   display: inline-block;
   vertical-align: top;
   margin-left: 5%;
+}
+.nav-menu{
+  position: fixed;
+  transform: rotate(-90deg);
+  top: 47%;
+  left: -124px;
+  z-index: 100;
+}
+.nav-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu li{
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  margin: 0 9px;
+}
+.nav-menu li a{
+  display: block;
+  margin: 0;
+  position: relative;
+  width: 46px;
+  height: 46px;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+}
+.nav-menu li a:after{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid rgba(255, 255, 255, 0);
+  transform: rotate(45deg);
+}
+.nav-menu li a:hover:after,
+.nav-menu li a.active:after{
+  border: 1px solid #DC0B07;
+}
+.nav-menu li a .title{
+  display:  none;
+}
+.nav-menu li a .nubmer{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #2A2B30;
+  transform: rotate(90deg);
+  display: block;
+  top: 14px;
+  position: relative;
+}
+.nav-menu #text{
+  position: absolute;
+  left: 106%;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  top: 13px;
+  white-space: nowrap;
+}
+.nav-menu.white #text,
+.nav-menu.white li a .nubmer{
+  color: #ffffff;
 }
 
 
