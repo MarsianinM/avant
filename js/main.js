@@ -13,7 +13,7 @@ $(function($) {
         addClassMenu();
     });
 
-    function addClassMenu(){
+    function addClassMenu(text_stop = false){
         const position = $(this).scrollTop();
 
         section.each(function () {
@@ -27,12 +27,16 @@ $(function($) {
                 $(this).addClass('active1');
                 nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
                 let text_a = nav.find('a[href="#' + $(this).attr('id') + '"] .title').text();
-                nav.find('#text').text(text_a);
                 if($(this).hasClass('bg-black')){
                     nav.addClass('white');
                 }else{
                     nav.removeClass('white');
                 }
+                nav.find('#text').fadeOut(100);
+                setTimeout(function(){
+                    nav.find('#text').text($('.nav-menu a.active .title').text());
+                    nav.find('#text').fadeIn(100);
+                },488);
             }
         });
     }

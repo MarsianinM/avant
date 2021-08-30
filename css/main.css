@@ -172,7 +172,41 @@ textarea {
   clear: both;
 }
 
-
+.menu-icon-wrapper{
+  position: relative;
+}
+.menu-icon-wrapper .nav-page{
+  display: none;
+}
+.menu-icon-wrapper:hover .nav-page{
+  display: block;
+  width: 280px;
+  padding: 15px;
+  border: 1px solid #cecece;
+  background: #ffffff;
+  z-index: 100;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.menu-icon-wrapper .nav-page ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu-icon-wrapper .nav-page ul a{
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  display: block;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.menu-icon-wrapper .nav-page ul li:last-child a{
+  margin-bottom: 0;
+}
 .menu-icon-wrapper,
 .wrapper-icon-social,
 a.mailto{
