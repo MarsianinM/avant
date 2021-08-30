@@ -596,6 +596,10 @@ header.header{
 .for-section .item.logo-mirax-group{
   padding-top: 25px;
 }
+.fife-section .row_trusted .item,
+.for-section .item{
+  overflow: hidden;
+}
 .fife-section .row_trusted .item img,
 .for-section .item img{
   max-height: 100%;
@@ -603,6 +607,10 @@ header.header{
   width: auto;
   height: auto;
   margin: 0 auto;
+  transition: 1s;
+}
+.fife-section .row_trusted .item:hover img, .for-section .item:hover img{
+  transform: scale(1.2);
 }
 .for-section .title-wrapper-block .title,
 .fife-section .title-wrapper-block .title{
