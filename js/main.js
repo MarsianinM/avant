@@ -32,11 +32,15 @@ $(function($) {
                 }else{
                     nav.removeClass('white');
                 }
-                nav.find('#text').fadeOut(100);
-                setTimeout(function(){
-                    nav.find('#text').text($('.nav-menu a.active .title').text());
-                    nav.find('#text').fadeIn(100);
-                },488);
+                let activ_text = $('.nav-menu a.active .title').text();
+                let text_this = nav.find('#text').text();
+                if(activ_text != text_this){
+                    nav.find('#text').fadeOut(100);
+                    setTimeout(function(){
+                        nav.find('#text').text($('.nav-menu a.active .title').text());
+                        nav.find('#text').fadeIn(100);
+                    },488);
+                }
             }
         });
     }
