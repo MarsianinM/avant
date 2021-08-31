@@ -534,7 +534,14 @@ header.header{
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out
 }
-
+#rec182511475 input::-webkit-input-placeholder {color:#b52744; opacity: 0.5;}
+#rec182511475 input::-moz-placeholder          {color:#b52744; opacity: 0.5;}
+#rec182511475 input:-moz-placeholder           {color:#b52744; opacity: 0.5;}
+#rec182511475 input:-ms-input-placeholder      {color:#b52744; opacity: 0.5;}
+#rec182511475 textarea::-webkit-input-placeholder {color:#b52744; opacity: 0.5;}
+#rec182511475 textarea::-moz-placeholder          {color:#b52744; opacity: 0.5;}
+#rec182511475 textarea:-moz-placeholder           {color:#b52744; opacity: 0.5;}
+#rec182511475 textarea:-ms-input-placeholder      {color:#b52744; opacity: 0.5;}
 @keyframes mover {
   0% {opacity: 0; }
   100% { opacity: 1; }
