@@ -1457,7 +1457,7 @@ section.content{
   .wrapper-icon-social{
     display: none;
   }
-  a.mailto{
+  a.mailto,.header a.tel-footer{
     display: none;
   }
   .first-section{
